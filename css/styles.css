@@ -1,0 +1,99 @@
+* {}
+
+body {
+    margin: auto;
+    padding: 2rem;
+    max-width: 60rem;
+    text-align: center;
+    background-color: white;
+    color: dimgrey;
+    line-height: 1.6rem;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.7rem;
+    line-height: 3rem;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: inherit;
+    color: #ff6e6a;
+}
+
+img {
+    max-width: 30rem;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 100%
+    }
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+    }
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 3.3rem;
+    line-height: 4rem;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    padding: 1rem 0;
+}
+
+.description {
+    max-width: 30rem;
+    margin: auto;
+    text-align: left;
+}
+
+.bottomtext {
+    display: block;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.8rem;
+}

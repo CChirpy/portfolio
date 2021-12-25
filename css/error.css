@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    padding: 5rem;
+    background-color: white;
+    color: dimgrey;
+    line-height: 1.5rem;
+    font-family: monospace;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: inherit;
+    color: #ff6e6a;
+}
